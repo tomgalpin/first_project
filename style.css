@@ -1,0 +1,93 @@
+html {
+  background: url('desert.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+#navigation_bar {
+  background: black;
+  width: 1000px;
+  margin: 20px auto 20px auto;
+  border-radius: 5px;
+}
+
+#navigation_bar ul{
+  color: white;
+  list-style-type: none;
+  margin:0 auto;
+  width:400px;
+  font-size: 20px;
+}
+
+#navigation_bar li {
+  float:left;
+  text-align: center;
+}
+
+#navigation_bar a {
+  color:#fff;
+  display:inline-block;
+  padding:10px 0;
+  float:left;
+  width:100px;
+  text-decoration: none;
+}
+
+#container {
+  background: black;
+  width: 1000px;
+  margin: 0 auto;
+  border-radius: 5px;
+/*  opacity: 0.70;*/
+
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+img {
+  height: auto;
+  width: 300px;
+  float: left;
+  border: 3px solid white;
+  border-radius: 3px;
+  margin: 40px 10px 10px 40px;
+  opacity: none;
+
+}
+h1 {
+  text-align: right;
+  color: white;
+  font-size: 80px;
+  padding: 20px;
+  margin: 0px 20px -10px 0px;
+
+}
+
+h2 {
+  color: white;
+  font-size: 20px;
+  text-align: right;
+  padding: 20px;
+  margin: -30px 20px -20px 0px;
+}
+
+#container p {
+  color: white;
+  font-size: 15px;
+  text-align: justify;
+  padding: 20px;
+  margin: -30px 20px 0px 20px;
+  font-family: Helvetica;
+}
+
+#container p:last-child {
+  margin-bottom: 20px;
+}
+
