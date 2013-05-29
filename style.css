@@ -4,7 +4,7 @@ html {
 }
 
 #navigation_bar {
-  background: black;
+  background: rgba(0, 0, 0, 0.59);
   width: 1000px;
   margin: 20px auto 20px auto;
   border-radius: 5px;
@@ -33,7 +33,7 @@ html {
 }
 
 #container {
-  background: black;
+  background: rgba(0, 0, 0, 0.59);
   width: 1000px;
   margin: 0 auto;
   border-radius: 5px;
